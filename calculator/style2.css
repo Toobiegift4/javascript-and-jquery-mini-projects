@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50vw;
+    max-width: 1600px;
+    height: 100vh;
+    text-align: center;
+    margin: 5rem auto ;
+}
+button{
+    width: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-size: 25px;
+    
+    border-radius: 10px;
+    border: 1px solid rgb(172, 168, 168);
+    background: rgb(41, 41, 224);
+    color: aliceblue;
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.btn:hover{
+    background: bisque;
+}
+span{
+    text-align: center;
+    width: 10px;
+    font-size: 50px;
+    /* margin-left: 10rem; */
+    
+    
+    border-bottom: 2px solid rgb(3, 3, 104);
+}
+.fnum {
+    margin-left: 1rem;
+}
